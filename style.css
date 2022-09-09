@@ -1,0 +1,93 @@
+* {
+}
+
+body {
+	background: #000012;
+	color: white;
+	font-family: monospace ;
+	letter-spacing: .1rem;
+	word-spacing: 0.2rem;
+	margin: 0;
+}
+h1{
+	letter-spacing: .5rem;
+}
+
+#my-img {
+	height: 300px;
+	width: 300px;
+	border: 20px solid white;
+	border-radius: 50%;
+	margin-left: 70px;
+}
+
+#my-img:hover {
+	border: 20px solid #f9f9cc;
+	transition: 2s;
+}
+.btn {
+	background: linear-gradient( gray ,blue );
+	color: whitesmoke;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	background: linear-gradient( gray ,darkblue );
+	color: yellow;
+	transition: 2s;
+}
+
+.double-div {
+	display: flex;
+	justify-self: space-between;
+	margin: 5px 0 40px 10px;
+}
+.div-1 {
+	width: 48%;
+	margin: 10px;
+}
+.div-2 {
+	width: 48%;
+}
+
+
+
+.container {
+	width: 80%;
+	margin: auto auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-row: auto	auto;
+	 grid-gap: 10px;
+	 margin-bottom: 30px;
+}
+.projects img{
+	width:100%;
+
+}
+.title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.customer-img {
+	width: 80%;
+	height: 300px;
+}
+
+
+.social-contact {
+	margin-right: 40px;
+}
+
+.social {
+	text-align: center;
+	justify-content: space-between;
+}
